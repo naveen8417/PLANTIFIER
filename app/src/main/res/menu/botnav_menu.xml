@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/botnav_menu_notes"
+        android:icon="@drawable/iconnote"
+        android:title="Notes" />
+    <item
+        android:id="@+id/botnav_menu_dashboard"
+        android:icon="@drawable/icontree"
+
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nully"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/botnav_menu_share"
+        android:icon="@drawable/icon_friends"
+        android:title="LeaderBoard" />
+
+    <item
+        android:id="@+id/botnav_menu_account"
+        android:icon="@drawable/iconaccount"
+        android:title="Profile" />
+
+
+
+</menu>

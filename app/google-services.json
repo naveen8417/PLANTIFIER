@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "944225613236",
+    "project_id": "plant-app-f8579",
+    "storage_bucket": "plant-app-f8579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944225613236:android:4119011877bf9a71612ee1",
+        "android_client_info": {
+          "package_name": "com.rejointech.planeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944225613236-40bjinlrv6s23jl29o8d6gf6uejue2bo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rejointech.planeta",
+            "certificate_hash": "32454e231579cd15b3623f98cba99817ef6b72e5"
+          }
+        },
+        {
+          "client_id": "944225613236-ipmoeaubrqjvc65ol6es4lc85n8f4kh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYHddKMfEVXgTOfAz4Imv8GWB4mzlctv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944225613236-ipmoeaubrqjvc65ol6es4lc85n8f4kh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

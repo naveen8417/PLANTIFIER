@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Startup.loginFragment">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_forgotpassbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Forgotten Password"
+        android:textColor="#827717"
+        app:layout_constraintEnd_toEndOf="@+id/login_passwordedittext"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/login_passwordedittext"
+        app:layout_constraintTop_toBottomOf="@+id/login_passwordedittext" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/login_accounidedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Registered Account Id"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/final_itemcolor"
+        android:textColorHint="@color/final_itemcolor"
+        app:layout_constraintBottom_toTopOf="@+id/login_passwordedittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/login_passwordedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:password="true"
+        android:textColor="@color/final_itemcolor"
+        android:textColorHint="@color/final_itemcolor"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_accounidedittext" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_passwordedittext"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_loginbot"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botgreenwithoutborder"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="LOGIN"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_registerbot"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botgreenwithoutborder"
+            android:text="Register"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="467dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
