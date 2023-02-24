@@ -156,7 +156,7 @@ public class registerotpvalidationFragment extends Fragment {
 
             @Override
             public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-                final String myResponse = response.body().toString();
+                final String myResponse = response.body().string();
                 getActivity().runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
